@@ -8,7 +8,12 @@ namespace TestGC
 {
     public class MarketSimulator
     {
+        public MarketSimulatorDefinition Definition { get; private set; }
 
+        public MarketSimulator(MarketSimulatorDefinition simDefinition)
+        {
+            this.Definition = simDefinition;
+        }
 
     }
 }
