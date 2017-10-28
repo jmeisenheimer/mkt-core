@@ -10,6 +10,9 @@ namespace TestGC
     {
         public MarketDefinition MktDef { get; private set; }
 
-        
+        public MarketSimulatorDefinition(MarketDefinition mktDef)
+        {
+            this.MktDef = mktDef;
+        }
     }
 }
