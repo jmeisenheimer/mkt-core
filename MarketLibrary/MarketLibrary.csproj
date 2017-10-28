@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\Tenor.cs" />
     <Compile Include="FXInstrument.cs" />
     <Compile Include="Instrument.cs" />
     <Compile Include="MarketDefinition.cs" />
@@ -49,6 +50,9 @@
     <Compile Include="Pricelevel.cs" />
     <Compile Include="PriceLevelList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="XML\Market.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
