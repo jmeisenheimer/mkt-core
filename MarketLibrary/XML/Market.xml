@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Market>
+  <Instruments>
+    <FXInstrument tickerSymbol="EUR/USD" pipSize="0.0001"/>
+    <FXInstrument tickerSymbol="USD/CAD" pipSize="0.0001"/>
+  </Instruments>
+</Market>
